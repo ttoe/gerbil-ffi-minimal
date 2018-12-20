@@ -1,5 +1,5 @@
 gerbil: gcc
-	gxc -ld-options `pwd`/libplus.o plus.ss
+	gxc -ld-options `pwd`/lib/libplus.o plus.ss
 
 gcc:
-	gcc-8 -c -fPIC -o libplus.o libplus.c
+	gcc-8 -c -fPIC -o lib/libplus.o lib/libplus.c
