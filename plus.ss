@@ -9,8 +9,8 @@
 
  ;; We include the header file containing the procedure declaration
  ;; Without this '(c-declare ...)' there is a compiler warning about an implicit declaration of 'plus_one'
- ;; This seems to need an absolute path though. However, it still works
- ;; (c-declare "#include \"libplus.h\"")
+ ;; This seems to need an absolute path though. However, it still works.
+ (c-declare "#include \"libplus.h\"")
 
  ;; (define <procedure-name> (c-lambda (<argument-type> ...) <return-type> <c-procedure-name-string>)
  (define plus-one (c-lambda (int) int "plus_one")))
