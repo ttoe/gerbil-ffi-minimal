@@ -11,7 +11,7 @@
  ;; Without '(c-declare ...)' there is a compiler warning about an implicit declaration of 'plus_one'.
  ;; 'c-declare' seems to need an absolute path though. Therefore the makefile adds the include path.
  (c-declare "#include \"libplus.h\"")
- ;; Alternatively the following would also work.
+ ;; Alternatively the following would also work (allowing for a simpler Makefile).
  ;; (c-declare "int plus_one(int x);")
 
  ;; (define <procedure-name> (c-lambda (<argument-type> ...) <return-type> <c-procedure-name-string>)
