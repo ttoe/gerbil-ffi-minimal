@@ -1,4 +1,4 @@
-# Minimal Gerbil C FFI example
+# Minimal [Gerbil](https://github.com/vyzo/gerbil) C FFI example
 
 **Tested on:**  _macOS_
 
